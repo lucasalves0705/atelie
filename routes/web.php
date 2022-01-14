@@ -32,3 +32,7 @@ Route::get('/contato', function () {
 Route::get('/blog', function () {
     return view('pages.blog');
 })->name('blog.index');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
