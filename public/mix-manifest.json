@@ -1,4 +1,10 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/img/breadcrumb-bg.jpg": "/img/breadcrumb-bg.jpg",
+    "/img/footer-logo.png": "/img/footer-logo.png",
+    "/img/logo.png": "/img/logo.png",
+    "/img/payment.png": "/img/payment.png",
+    "/img/product-sale.jpg": "/img/product-sale.jpg",
+    "/img/product-sale.png": "/img/product-sale.png"
 }
