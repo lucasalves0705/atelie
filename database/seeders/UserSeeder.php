@@ -19,11 +19,12 @@ class UserSeeder extends Seeder
     public function run()
     {
         User::query()->updateOrInsert([
-            'id' => 1,
             'name' => 'admim',
             'email' => 'admim@atelie.com.br',
             'email_verified_at' => new DateTime(),
-            'password' => Hash::make('admim123')
+            'password' => Hash::make('admim123'),
+            'created_at' => new DateTime(),
+            'updated_at' => new DateTime()
         ]);
     }
 }
